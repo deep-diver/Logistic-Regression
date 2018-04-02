@@ -21,16 +21,16 @@ This repository is to demonstrate a simple neural networks without hidden layers
  - return the final values of parameters and gradient decent
 5. **propagate** function
  - performs calculation in the following order
-  - **sigmoid** function as the activation function on w, X, and b ![alt text](./images/activatoin.png)
-  - calculate the cost function J <br/>![alt text](./images/cost.png)
+  - **sigmoid** function as the activation function on w, X, and b ![alt text](/images/activatoin.PNG)
+  - calculate the cost function J <br/>![alt text](./images/cost.PNG)
   - calculate the gradient decent on w and b
-    - ![alt text](./images/dw.png)
-    - ![alt text](./images/db.png)
+    - ![alt text](./images/dw.PNG)
+    - ![alt text](./images/db.PNG)
   - return them
 6. **predict** function
  - simply running **sigmoid** function on w, X, and b. with the result of the **sigoid** function (a), it returns 0 if a <= 0.5, and it returns 1 otherwise.
 7. **sigmoid** function
- - simply calculate and return <br/>![alt text](./images/sigmoid.png)
+ - simply calculate and return <br/>![alt text](./images/sigmoid.PNG)
 
 ### Dependencies
 - **numpy**
