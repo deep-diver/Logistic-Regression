@@ -34,9 +34,9 @@ This repository is to demonstrate a simple neural networks without hidden layers
 
 ### Dependencies
 - **numpy**
- - for handy matrix operations
- - http://www.numpy.org/
+  - for handy matrix operations
+  - http://www.numpy.org/
 - **h5py**
- - Pythonic interface to the HDF5 binary data format.
- - Image dataset is stored in h5 file format.
- - https://www.h5py.org/
+  - Pythonic interface to the HDF5 binary data format.
+  - Image dataset is stored in h5 file format.
+  - https://www.h5py.org/
