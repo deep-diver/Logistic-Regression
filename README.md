@@ -4,9 +4,6 @@ This repository is to demonstrate a simple neural networks without hidden layers
 
 ![alt text](/images/capture1.png)
 
-### The flow
-1. **main** function
-=======
 ## The flow
 ### 1. **main** function
  - get the image datasets, then flatten and normalize them.
