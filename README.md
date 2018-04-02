@@ -2,6 +2,8 @@
 
 This repository is to demonstrate a simple neural networks without hidden layers. All the functions to build the neural networks are written in numpy.
 
+![alt text](./images/capture1.png)
+
 ### The flow
 1. **main** function
  - get the image datasets, then flatten and normalize them.
@@ -26,6 +28,8 @@ This repository is to demonstrate a simple neural networks without hidden layers
   - calculate the gradient decent on w and b
     - ![alt text](./images/dw.png)
     - ![alt text](./images/db.png)
+    <br/>
+    ![alt text](./images/capture2.png)
   - return them
 6. **predict** function
  - simply running **sigmoid** function on w, X, and b. with the result of the **sigoid** function (a), it returns 0 if a <= 0.5, and it returns 1 otherwise.
