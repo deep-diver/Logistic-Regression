@@ -3,7 +3,6 @@ import h5py
 import scipy
 from PIL import Image
 from scipy import ndimage
-from lr_utils import load_dataset
 
 def load_dataset():
     train_dataset = h5py.File('datasets/train_catvnoncat.h5', "r")
