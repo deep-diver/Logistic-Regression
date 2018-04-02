@@ -20,19 +20,7 @@ def load_dataset():
 
     return train_set_x_orig, train_set_y_orig, test_set_x_orig, test_set_y_orig, classes
 
-# GRADED FUNCTION: sigmoid
-
 def sigmoid(z):
-    """
-    Compute the sigmoid of z
-
-    Arguments:
-    z -- A scalar or numpy array of any size.
-
-    Return:
-    s -- sigmoid(z)
-    """
-
     s = 1/(1 + np.power(np.e, -z))
     return s
 
@@ -67,9 +55,6 @@ def propagate(w, b, X, Y):
     cost -- negative log-likelihood cost for logistic regression
     dw -- gradient of the loss with respect to w, thus same shape as w
     db -- gradient of the loss with respect to b, thus same shape as b
-
-    Tips:
-    - Write your code step by step for the propagation. np.log(), np.dot()
     """
 
     m = X.shape[1]
