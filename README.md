@@ -1,6 +1,6 @@
 # Simple Neural Network without hidden layer
 
-This repository is to demonstrate a simple neural networks without hidden layers. All the functions to build the neural networks are written in numpy.
+This repository is to demonstrate a simple neural networks without hidden layers. All the functions to build the neural networks are written in numpy. The simple model takes a batch of images of cat in shape shown below figure, and then it performs prediction.
 
 ![alt text](/images/capture1.png)
 
